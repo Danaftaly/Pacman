@@ -1,0 +1,44 @@
+".steps" files format:
+
+		these files contains each creature step, written in seperated lines,
+		by the following order:
+
+			each iteration starts with Pacman's step
+			followed by ghosts's steps if any,
+			followed by fruit's step / appear / disappear.
+signs:
+
+creatures:
+		'P' - Pacman's step
+		'G' - Ghost's step 
+		'F' - Fruit step / appearance
+directions:
+		'a' - left
+		'w' - up
+		'd' - right
+		'x' - down
+		's' - stay
+fruit's operations:
+ 		'+' - appear 	**
+		'-' - disappear
+additional:
+		'L' - Leave back to menu
+
+** - appear op is followed by three numbers: x y v - represents (x, y) position and value.
+
+-------------------------------------------------------------------------------------------------------
+
+".steps" files format:
+
+		these files contains points of time for this screen where pacman died (if any)
+		and point of time for this screen where pacman finished the screen,
+		written in chronological order.
+
+signs:
+
+events:
+		'D' - Death of Pacman
+		'Q' - Quitted this screen
+additional:
+		'X' - invalid screen
+
