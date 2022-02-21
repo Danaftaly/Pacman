@@ -5,15 +5,5 @@
 | |                                     
 |_|
 
-PACMAN GAME - Exercise 2
-
-	By:  Snir Pinievsky - 313334443
-    	     Dan Naftali    - 205984917
-
-** Notice that there is an option in the menu
-   whether run the game with or without colors ( by pressing 'C').
-
-** Just to mention, 
-   this project was submitted after the due date,
-   therefore, an email with the permission to the late submition
-   has been attached.
+Snir Pinievsky
+Dan Naftaly
